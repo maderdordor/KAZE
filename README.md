@@ -1,4 +1,4 @@
-4e3543# The Sesame Robot Project 
+
 ___
 ![License](https://img.shields.io/badge/License-APACHE2.0-yellow)
 ![Microcontroller](https://img.shields.io/badge/Microcontroller-ESP32-blue)
