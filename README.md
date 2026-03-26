@@ -1,4 +1,4 @@
-# The Sesame Robot Project 
+4e3543# The Sesame Robot Project 
 ___
 ![License](https://img.shields.io/badge/License-APACHE2.0-yellow)
 ![Microcontroller](https://img.shields.io/badge/Microcontroller-ESP32-blue)
@@ -8,13 +8,6 @@ ___
 ![GitHub forks](https://img.shields.io/github/forks/dorianborian/sesame-robot?style=social)
 
 <img width="100%" height="728" alt="sesame-cover" src="https://github.com/user-attachments/assets/f0cc6ad0-135b-4515-8750-900f224ed7ae" />
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=NIgoQVQF_Ng">
-    <img src="https://github.com/user-attachments/assets/1663e022-0680-4053-97b4-53e669a6f07d" width="70%" alt="tutorial-button">
-  </a>
-</p>
-
 ___
 
 **Greetings, from your new best friend.**
