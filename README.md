@@ -4,8 +4,8 @@ ___
 ![Microcontroller](https://img.shields.io/badge/Microcontroller-ESP32-blue)
 ![Firmware](https://img.shields.io/badge/Firmware-C%2B%2B-blue?logo=c%2B%2B)
 ![IDE](https://img.shields.io/badge/IDE-Arduino-00979D?logo=arduino&logoColor=white)
-![GitHub stars](https://img.shields.io/github/stars/dorianborian/sesame-robot?style=social)
-![GitHub forks](https://img.shields.io/github/forks/dorianborian/sesame-robot?style=social)
+![GitHub stars]()
+![GitHub forks]()
 
 <img width="100%" height="728" alt="sesame-cover" src="https://github.com/user-attachments/assets/f0cc6ad0-135b-4515-8750-900f224ed7ae" />
 ___
