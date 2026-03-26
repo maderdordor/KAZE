@@ -5,17 +5,17 @@ ___
 ![Firmware](https://img.shields.io/badge/Firmware-C%2B%2B-blue?logo=c%2B%2B)
 ![IDE](https://img.shields.io/badge/IDE-Arduino-00979D?logo=arduino&logoColor=white)
 
-<img width="100%" height="728" alt="sesame-cover" src="https://github.com/user-attachments/assets/f0cc6ad0-135b-4515-8750-900f224ed7ae" />
+<img width="100%" height="728" alt="KAZE-cover" src="https://github.com/user-attachments/assets/f0cc6ad0-135b-4515-8750-900f224ed7ae" />
 ___
 
 **Greetings, from your new best friend.**
 
-Sesame is an accessible Open-Source robotics project based on the ESP32 microcontroller system, with an emphasis on expression and movement. 
-This project is designed for makers and engineers of all skill levels! Sesame offers a dynamic platform designed to start working with walking robots. 
-To build a sesame robot, you will need basic soldering skills, $50-60 in hardware components, access to a 3D printer, and a basic understanding of Arduino IDE.
+KAZE is an accessible Open-Source robotics project based on the ESP32 microcontroller system, with an emphasis on expression and movement. 
+This project is designed for makers and engineers of all skill levels! KAZE offers a dynamic platform designed to start working with walking robots. 
+To build a KAZE robot, you will need basic soldering skills, $50-60 in hardware components, access to a 3D printer, and a basic understanding of Arduino IDE.
 
 This repository contains the CAD design files, STL files, build and wiring guides, and the base/expanded firmware for the ESP32-based controller. 
-There is also some included debugging firmware that may be helpful in getting your Sesame up and running.
+There is also some included debugging firmware that may be helpful in getting your KAZE up and running.
 
 ## Features
 
@@ -25,8 +25,8 @@ There is also some included debugging firmware that may be helpful in getting yo
 *   **Network Connectivity:** Connect to your WiFi network for remote control and API access.
 *   **JSON API:** RESTful API for programmatic control from Python, JavaScript, and more.
 *   **Conversational Faces:** Expressive emotion library with talk variants for voice assistant projects.
-*   **Sesame Studio:** New animation composer software to easily create custom movements.
-*   **Sesame Companion App:** Python application for voice control and advanced interactions.
+*   **KAZE Studio:** New animation composer software to easily create custom movements.
+*   **KAZE Companion App:** Python application for voice control and advanced interactions.
 *   **Serial CLI:** Control the robot and trigger animations via a Serial Command Line Interface or the web UI.
 *   **Pre-programmed Emotes:** Includes animations for Walking, Waving, Dancing, Pointing, Resting, and more.
 
@@ -42,11 +42,11 @@ ___
 
 ## Getting Started
 
-Follow these steps to build your own Sesame Robot:
+Follow these steps to build your own KAZE Robot:
 
 ### 1. Gather Parts 
 Check the **[Bill of Materials (BOM)](hardware/bom/README.md)** for a complete list of required electronics and hardware.
-*   Microcontroller: Lolin S2 Mini (recommended for DIY builds), Sesame Distro Board V2 (included in Build Kits, pre-flashed), or ESP32-DevKitC-32E with Distro Board V1 (legacy)
+*   Microcontroller: Lolin S2 Mini (recommended for DIY builds), KAZE Distro Board V2 (included in Build Kits, pre-flashed), or ESP32-DevKitC-32E with Distro Board V1 (legacy)
 *   Actuators: 8x MG90 Servos
 *   Power: 5V 3A source (USB-C PD for S2 Mini and V2 Distro Board, or battery + buck converter; see BOM for the 2× 10440 Li-ion + 2× AAA holder option)
 
@@ -64,44 +64,44 @@ Upload the code from the **[Firmware Directory](firmware/README.md)**.
 *   Configure WiFi AP settings
 
 ### 5. Create Animations 
-Use **[Sesame Studio](software/sesame-studio/README.md)** to visually design poses and sequences for your robot.
+Use **[KAZE Studio](software/KAZE-studio/README.md)** to visually design poses and sequences for your robot.
 
-<img width="100%" height="728" alt="sesame-wakeup-gif" src="https://github.com/user-attachments/assets/a4951195-4253-40a4-a87d-d14fad57ff5f" />
+<img width="100%" height="728" alt="KAZE-wakeup-gif" src="https://github.com/user-attachments/assets/a4951195-4253-40a4-a87d-d14fad57ff5f" />
 
 ---
 
 ## Software & Firmware
 
-### Sesame Studio
-Sesame Studio is a standalone desktop application included in `software/sesame-studio/`. It allows you to:
+### KAZE Studio
+KAZE Studio is a standalone desktop application included in `software/KAZE-studio/`. It allows you to:
 *   Visually pose the robot using a schematic interface.
 *   Generate C++ code for servo angles automatically.
 *   Sequence frames into complex animations.
 
-[**> Go to Sesame Studio**](software/sesame-studio/README.md)
+[**> Go to KAZE Studio**](software/KAZE-studio/README.md)
 
 
-### Sesame Simulator
-The Sesame Simulator, created by Jay Li, is a Rust-based 3D simulation environment for testing Sesame's movements and kinematics in a virtual space. It features:
+### KAZE Simulator
+The KAZE Simulator, created by Jay Li, is a Rust-based 3D simulation environment for testing KAZE's movements and kinematics in a virtual space. It features:
 *   **Physics-based Simulation:** Test walking and balance without hardware.
 *   **Web-based Interface:** Run the simulator directly in your browser.
-*   **URDF Integration:** Accurate modeling of Sesame's physical properties.
+*   **URDF Integration:** Accurate modeling of KAZE's physical properties.
 
-[**> Go to Sesame Simulator**](https://one-for-all.github.io/sesame-robot-sim/)
+[**> Go to KAZE Simulator**](https://one-for-all.github.io/KAZE-robot-sim/)
 
-### Sesame Companion App
-The Sesame Companion App is a Python-based application that enables advanced control and interaction with your robot over your local network. It leverages the new JSON API and network mode features to provide:
-*   **Voice Assistant Integration:** Control Sesame with voice commands and see real-time emotional expressions.
+### KAZE Companion App
+The KAZE Companion App is a Python-based application that enables advanced control and interaction with your robot over your local network. It leverages the new JSON API and network mode features to provide:
+*   **Voice Assistant Integration:** Control KAZE with voice commands and see real-time emotional expressions.
 *   **Remote Control:** Command your robot from anywhere on your local network.
 *   **Face Control:** Change expressions dynamically based on conversation or context.
 *   **API Examples:** Reference implementation for building your own integrations.
 
 The Companion App works with robots running the latest firmware with network mode enabled.
 
-[**> Go to Sesame Companion App Repository**](https://github.com/dorianborian/sesame-companion-app)
+[**> Go to KAZE Companion App Repository**](https://github.com/dorianborian/KAZE-companion-app)
 
 ### Firmware
-The ESP32 firmware (`sesame-firmware-main.ino`) handles the kinematics, face display, and WiFi control interface.
+The ESP32 firmware (`KAZE-firmware-main.ino`) handles the kinematics, face display, and WiFi control interface.
 *   **Web UI:** Control the robot from your phone via the built-in Access Point.
 *   **Custom Faces:** Add your own bitmaps (guide in firmware docs).
 
@@ -122,4 +122,4 @@ I would also love to see forks of this project with new hardware, software, face
   
 ---
 
-*Created by [Dorian Todd](https://www.doriantodd.com/). Need help with your Sesame Robot? Send me a message on Discord, my username is "starphee"*
+*Created by [Dorian Todd](https://www.doriantodd.com/). Need help with your KAZE Robot? Send me a message on Discord, my username is "starphee"*
