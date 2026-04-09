@@ -30,11 +30,6 @@ There is also some included debugging firmware that may be helpful in getting yo
 *   **Serial CLI:** Control the robot and trigger animations via a Serial Command Line Interface or the web UI.
 *   **Pre-programmed Emotes:** Includes animations for Walking, Waving, Dancing, Pointing, Resting, and more.
 
-
-## Watch the launch video on YouTube
-
-<a href="https://www.youtube.com/watch?v=1UDsWkcQZhc"><img src="https://github.com/user-attachments/assets/710cb5a6-163e-47e7-a294-5e2d2ab07627" width="70%" alt="thumb-youtube"></a>
-
 ## Join the Discord community
 [https://discord.gg/JcFEPBbtEj
 ](https://discord.gg/JcFEPBbtEj)
@@ -98,8 +93,6 @@ The KAZE Companion App is a Python-based application that enables advanced contr
 
 The Companion App works with robots running the latest firmware with network mode enabled.
 
-[**> Go to KAZE Companion App Repository**](https://github.com/dorianborian/KAZE-companion-app)
-
 ### Firmware
 The ESP32 firmware (`KAZE-firmware-main.ino`) handles the kinematics, face display, and WiFi control interface.
 *   **Web UI:** Control the robot from your phone via the built-in Access Point.
@@ -119,7 +112,3 @@ This robot is a platform for building new features, cosmetics, tools, and ideas.
 *   Sensor integration (Ultrasonic, Gyro, etc.)
 
 I would also love to see forks of this project with new hardware, software, faces, etc. Be sure to send me a message if you end up building one, and I might feature you on my website or channel!
-  
----
-
-*Created by [Dorian Todd](https://www.doriantodd.com/). Need help with your KAZE Robot? Send me a message on Discord, my username is "starphee"*
